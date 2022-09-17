@@ -21,11 +21,11 @@
 1. There was a way to create contracts via TX. The cost to do so was 21,000 where for contracts it is 32,000. On top of this on could use suicide refunds to make a simple ether value transfer only using 11,664 gas.
 
 2. With s value being able to be `0 < s < secp256k1n` TX malleability was a concern by:
-	* Fliping the s value from s to `secp256k1n - s`
-	* Fliping the v `27 -> 28`, `28 -> 27` 
+	* Flipping the s value from s to `secp256k1n - s`
+	* Flipping the v `27 -> 28`, `28 -> 27` 
 
 This would give a valid signature that creates Ui inconvenience. For an attacker can force the TX to get confirmed in a block with a different hash from the TX any user sends. Disrupting user interfaces that use TX hashes for tracking IDs. It's not that big of a security issue given:
-	* Ethereum uses addressess not TX hashes for input of ether value transfer
+	* Ethereum uses addresses not TX hashes for input of ether value transfer
 
 3. This allows for users to better handle out-of-gas contract creation errors and improves safer creation
 
