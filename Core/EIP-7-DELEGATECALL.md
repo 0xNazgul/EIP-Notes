@@ -17,7 +17,7 @@ NOTES:
 * Upfront gas cost is always `schedule.callGas + gas` like `CALLCODE` (account creation never happens)
 * Unused gas is refunded
 
-2. sender
+2. Sender
 * `CALLER && VALUE` act the same in the callee's environment as they do in the caller's environment
 * Depth limit is still 1024
 
