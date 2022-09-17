@@ -2,7 +2,7 @@
 Before there was no native bitwise shifting instruction that was efficient enough to be on par with other arithmetic operations.
 
 # Specification
-`0x1b SHL` shift left:
+`0x1b SHL` Shift Left:
 * Pops two values from the stack, first `arg1` and then `arg2`
 * Pushes on the stack `arg2` shifted to the left by `arg1` number of bits
 Equal to:
@@ -12,7 +12,7 @@ Equal to:
 * If `arg1 >= 256` it results 0
 * Equivalent to `PUSH1 2 EXP MUL`
 
-`0x1c SHR` logical shift right:
+`0x1c SHR` Logical Shift Right:
 * Pops two values from the stack, first `arg1` and then `arg2`
 * Pushes on the stack `arg2` shifted to the right by `arg1` number of bits with zero fill
 Equal to:
@@ -22,7 +22,7 @@ Equal to:
 * If `arg1 >= 256` it results 0
 * Equivalent to `PUSH1 2 EXP DIV`
 
-`0x1d SAR` arithmetic shift right:
+`0x1d SAR` Arithmetic Shift Right:
 * Pops two values from the stack, first `arg1` and then `arg2`
 * Pushes on the stack `arg2` shifted to the right by `arg1` number of bits with sign extension
 
