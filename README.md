@@ -9,4 +9,3 @@ I've put this off far too long and if your reading this you have too. I finally 
 | [Interface]() |
 | [ERC]() |
 | [Meta]() |
-| [Informational]() |
