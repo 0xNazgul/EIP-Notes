@@ -9,10 +9,12 @@ Casper development and switch to PoS are delayed, PoW should be able to hold the
 
 ## Specification
 **Relax Difficulty with Fake Block Number**
+
 For the purposes of `calc_difficulty`, simply replace the use of `block.number`, as used in the exponential ice age component, with the formula:
 `fake_block_number = max(0, block.number - 3_000_000) if block.number >= BYZANTIUM_FORK_BLKNUM else block.number`
 
 **Adjust Block, Uncle, and Nephew rewards**
+
 To ensure a constant Ether issuance, adjust the block reward to `new_block_reward` (3 ETH):
 `new_block_reward = 3_000_000_000_000_000_000 if block.number >= BYZANTIUM_FORK_BLKNUM else block.reward`
 
