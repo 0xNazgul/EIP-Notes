@@ -8,4 +8,4 @@
 * Block >= 0 on the Gorli testnet
 
 ## Removed EIPs
-* [EIP-1283]()
+* [EIP-1283](https://github.com/0xNazgul/EIP-Notes/blob/main/Core/EIP-1283-Net-gas-metering.md)
