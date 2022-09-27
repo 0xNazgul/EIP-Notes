@@ -15,7 +15,7 @@ The fork is meant to push this back as far as possible and give core devs time t
 * Block >= N/A on the Görli testnet
 
 ## Included EIPs
-* [EIP-2384]()
+* [EIP-2384](https://github.com/0xNazgul/EIP-Notes/blob/main/Core/EIP-2384-Muir-Glacier-Difficulty.md)
 
 # Rationale
 *Original intention of the Ice Age*:
