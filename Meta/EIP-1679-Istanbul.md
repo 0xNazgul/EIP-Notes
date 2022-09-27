@@ -8,9 +8,9 @@
 * Block >= 1,561,651 on the Gorli testnet
 
 ## Included EIPs
-* [EIP-152]()
-* [EIP-1108]()
-* [EIP-1344]()
-* [EIP-1884]()
-* [EIP-2028]()
-* [EIP-2200]()
+* [EIP-152](https://github.com/0xNazgul/EIP-Notes/blob/main/Core/EIP-152-Add-BLAKE2.md)
+* [EIP-1108](https://github.com/0xNazgul/EIP-Notes/blob/main/Core/EIP-1108-Reduce-alt_bn128.md)
+* [EIP-1344](https://github.com/0xNazgul/EIP-Notes/blob/main/Core/EIP-1344-ChainID.md)
+* [EIP-1884](https://github.com/0xNazgul/EIP-Notes/blob/main/Core/EIP-1884-Repricing-for-trie-size.md)
+* [EIP-2028](https://github.com/0xNazgul/EIP-Notes/blob/main/Core/EIP-2028-Transaction-data-gas.md)
+* [EIP-2200](https://github.com/0xNazgul/EIP-Notes/blob/main/Core/EIP-2200-Structured-Definitions.md)
