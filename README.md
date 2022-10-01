@@ -94,8 +94,8 @@ I've put this off far too long and if your reading this you have too. I finally 
 | [EIP-6](https://github.com/0xNazgul/EIP-Notes/blob/main/Interface/EIP-6-Renaming-SUICIDE.md) | Renaming SUICIDE opcode |
 | [EIP-234](https://github.com/0xNazgul/EIP-Notes/blob/main/Interface/EIP-234-Add-blockHash.md) | Add `blockHash` to JSON-RPC filter options |
 | [EIP-695](https://github.com/0xNazgul/EIP-Notes/blob/main/Interface/EIP-695-Create-eth_chainId-method%20.md) | Create `eth_chainId` method for JSON-RPC |
-| [EIP-712]() | Typed structured data hashing and signing |
-| [EIP-1193]() | Ethereum Provider JavaScript API |
-| [EIP-2159]() | Common Prometheus Metrics Names for Clients |
-| [EIP-2696]() | JavaScript `request` method RPC transport |
-| [EIP-2700]() | JavaScript Provider Event Emitter |
+| [EIP-712](https://github.com/0xNazgul/EIP-Notes/blob/main/Interface/EIP-712-Typed-structured-data.md) | Typed structured data hashing and signing |
+| [EIP-1193](https://github.com/0xNazgul/EIP-Notes/blob/main/Interface/EIP-1193-Ethereum-Provider-JavaScript-API.md) | Ethereum Provider JavaScript API |
+| [EIP-2159](https://github.com/0xNazgul/EIP-Notes/blob/main/Interface/EIP-2159-Common-Prometheus.md) | Common Prometheus Metrics Names for Clients |
+| [EIP-2696](https://github.com/0xNazgul/EIP-Notes/blob/main/Interface/EIP-2696-JavaScript-request-method.md) | JavaScript `request` method RPC transport |
+| [EIP-2700](https://github.com/0xNazgul/EIP-Notes/blob/main/Interface/EIP-2700-JavaScript-Provider-Event-Emitter.md) | JavaScript Provider Event Emitter |
